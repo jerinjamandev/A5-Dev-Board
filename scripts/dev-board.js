@@ -27,7 +27,7 @@ let countButton=0;
     completeBtn.forEach(btn=>{
     btn.addEventListener('click',function(){
     countButton++;
-    alert('board uploaded successfully');
+    alert('board updated successfully');
 
     convertIncrimentId++
     incrimentId.innerText=convertIncrimentId
